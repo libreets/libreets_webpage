@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Libreets – Email подтверждён</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top, #141b3f 0, #050715 45%, #020308 100%);
+      color: #f9fafb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      max-width: 440px;
+      width: 100%;
+      padding: 24px 20px 20px;
+      border-radius: 18px;
+      background: rgba(8, 12, 32, 0.95);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.6);
+      text-align: center;
+      border: 1px solid rgba(148, 163, 255, 0.35);
+      backdrop-filter: blur(12px);
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      margin-bottom: 4px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.08);
+      color: #bbf7d0;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    p {
+      margin: 6px 0;
+      font-size: 14px;
+      color: #e5e7eb;
+      line-height: 1.5;
+    }
+    .hint {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .btn-row {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      border: 1px solid rgba(148, 163, 255, 0.6);
+      color: #e5e7eb;
+      transition: background 0.15s ease, transform 0.1s ease;
+    }
+    a.button:hover {
+      background: rgba(79, 70, 229, 0.25);
+      transform: translateY(-1px);
+    }
+    a.ghost {
+      border-color: rgba(75, 85, 99, 0.8);
+      color: #9ca3af;
+    }
+    a.ghost:hover {
+      background: rgba(31, 41, 55, 0.8);
+    }
+    .footer {
+      margin-top: 16px;
+      font-size: 11px;
+      color: #6b7280;
+    }
+    .footer a {
+      color: #9ca3ff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">LIBREETS</div>
+    <div class="badge">
+      <span>✅ Email подтверждён</span>
+    </div>
+    <h1>Всё готово!</h1>
+    <p>Вы успешно подтвердили адрес электронной почты для аккаунта Libreets.</p>
+    <p>Теперь вернитесь в приложение и нажмите кнопку<br><b>«Я подтвердил почту»</b>, чтобы продолжить.</p>
+
+    <p class="hint">
+      Если приложение было закрыто, просто откройте его снова и войдите с вашим email и паролем.
+    </p>
+
+    <div class="btn-row">
+      <a class="button ghost" href="privacy.html">Политика конфиденциальности</a>
+    </div>
+
+    <div class="footer">
+      Libreets · Сайд-проект<br />
+      <a href="mailto:support@example.com">support@example.com</a>
+    </div>
+  </div>
+</body>
+</html>
