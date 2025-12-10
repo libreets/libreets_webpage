@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Libreets – Voice-first social app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at top, #141b3f 0, #050715 45%, #020308 100%);
+      color: #f9fafb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      text-align: center;
+      max-width: 480px;
+      background: rgba(8, 12, 32, 0.8);
+      padding: 28px 22px;
+      border-radius: 20px;
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(148,163,255,0.3);
+    }
+    .logo {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: 0.06em;
+    }
+    p {
+      font-size: 15px;
+      color: #d1d5db;
+      margin-top: 6px;
+      line-height: 1.6;
+    }
+    .btn-row {
+      margin-top: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    a.button {
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      border: 1px solid rgba(148,163,255,0.55);
+      color: #e5e7eb;
+      transition: background 0.15s ease;
+    }
+    a.button:hover {
+      background: rgba(79,70,229,0.25);
+    }
+    .footer {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #6b7280;
+    }
+    .footer a { color: #9ca3ff; text-decoration:none; }
+    .footer a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">Libreets</div>
+    <p>Voice-first social platform where people create short audio posts and express ideas freely.</p>
+    <p>Available soon on iOS and Android.</p>
+
+    <div class="btn-row">
+      <a class="button" href="privacy.html">Privacy Policy</a>
+      <a class="button" href="terms.html">Terms of Use</a>
+      <a class="button" href="verification-success.html">Email Verification Demo</a>
+    </div>
+
+    <div class="footer">
+      © Libreets<br>
+      <a href="mailto:libreets@gmail.com">libreets@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
