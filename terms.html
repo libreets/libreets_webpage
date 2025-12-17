@@ -23,12 +23,20 @@
     a { color: #93c5fd; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .back-link { margin-top: 20px; display: inline-block; font-size: 13px; }
-    .logo { margin-bottom: 12px; }
+    .app-logo{
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;      /* скругление как у иконок iOS */
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 12px;      /* центр + отступ снизу */
+      box-shadow: 0 10px 26px rgba(0,0,0,.35);
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="logo.png" class="logo" width="84" alt="Libreets Logo" />
+    <img src="logo.png" class="app-logo" alt="Libreets Logo" />
 
     <h1>Terms of Use</h1>
     <p><b>Effective date:</b> January 1, 2025</p>
