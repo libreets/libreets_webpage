@@ -26,11 +26,14 @@
       backdrop-filter: blur(14px);
       border: 1px solid rgba(148,163,255,0.3);
     }
-    .logo {
-      font-size: 30px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      letter-spacing: 0.06em;
+    .app-logo {
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;      /* скругление как у иконок iOS */
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 12px;      /* центр + отступ снизу */
+      box-shadow: 0 10px 26px rgba(0,0,0,.35);
     }
     p {
       font-size: 15px;
@@ -67,7 +70,7 @@
 </head>
 <body>
   <div class="card">
-    <img src="logo.png" width="84" alt="Libreets Logo" />
+    <img src="logo.png" class="app-logo" alt="Libreets Logo" />
     <div class="logo">Libreets</div>
     <p>Voice-first social platform where people create short audio posts and express ideas freely.</p>
     <p>Available soon on iOS and Android.</p>
