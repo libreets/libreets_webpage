@@ -28,11 +28,14 @@
       border: 1px solid rgba(148, 163, 255, 0.35);
       backdrop-filter: blur(12px);
     }
-    .logo {
-      font-size: 24px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      margin-bottom: 4px;
+    .app-logo {
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;      /* скругление как у иконок iOS */
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 12px;      /* центр + отступ снизу */
+      box-shadow: 0 10px 26px rgba(0,0,0,.35);
     }
     .badge {
       display: inline-flex;
@@ -106,7 +109,7 @@
 </head>
 <body>
   <div class="card">
-    <img src="logo.png" width="84" alt="Libreets Logo" />
+    <img src="logo.png" class="app-logo" alt="Libreets Logo" />
     <div class="logo">Libreets</div>
     <div class="badge">
       <span>✅ Email verified</span>
